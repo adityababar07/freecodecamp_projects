@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>https://survey-form.freecodecamp.rocks/</title>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1 id="title">freeCodeCamp Survey Form</h1>
+
+<body id="body">
+    <img id="background_image" src="https://source.unsplash.com/RLw-UC03Gwc" />
+    <center id="main">
+        <b>
+            <h1 id="title">Survey Form</h1>
+            <i>
+                <p id="description">Thank you for taking the time to help us improve the platform </p>
+            </i>
+        </b>
+
+        <form id="survey-form">
+            <label id="name-label" for="name">Name :</label>
+            <input id="name" type="text" placeholder="enter your name" required><br />
+            <label id="email-label" for="email">Email :</label>
+            <input id="email" type="email" placeholder="enter your email address" required><br />
+            <label id="number-label" for="number">Phone Number :</label>
+            <input id="number" type="number" min="0" max="10000000000" placeholder="enter your phone number"><br />
+            <label id="dropdown-label" for="dropdown">Which option best describes your current role?"</label><br />
+            <select id="dropdown">
+                <option value="">Select your current role</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Employee">Employee</option>
+                <option value="Full Time Programmer">Full Time Programmer</option>
+                <option value="Freelancer">Freelancer</option>
+            </select><br />
+            <label id="radio-label" for="radio">Would you recommend our product to your friend?</label><br />
+            <label><input class="radio" name="radio" value="definitly" type="radio" checked=""> Definitly</label><br />
+            <label><input class="radio" name="radio" value="maybe" type="radio">Maybe</label><br />
+            <label><input class="radio" name="radio" value="not sure" type="radio">Not Sure</label><br />
+            <label id="checkbox-label" for="checkbox">
+                What did you like in our product?
+            </label><br />
+            <label><input class="checkbox" type="checkbox" value="navigation">Navigation</label><br />
+            <label><input class="checkbox" type="checkbox" value="User Interface">User Interface</label><br />
+            <label><input class="checkbox" type="checkbox" value="Content">Content</label><br />
+            <label><input class="checkbox" type="checkbox" value="Design">Design</label><br />
+            <label for="textarea">Any Comments or suggestions?</label><br>
+            <textarea id="textarea" placeholder="enter your comments and suggestions"></textarea><br />
+            <center><button id="submit" type="submit">Submit</button></center>
+        </form>
+    </center>
 </body>
+
 </html>

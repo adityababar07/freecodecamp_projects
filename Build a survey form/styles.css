@@ -1,0 +1,69 @@
+#body {
+    margin-top: -22px;
+    margin-left: 0%;
+}
+
+#background_image {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    position: relative;
+}
+
+#title {
+    color: white;
+    position: relative;
+    padding-top: 40px;
+}
+
+#description {
+    color: black;
+}
+
+#survey-form {
+    background-color: rgb(39, 39, 39);
+    max-width: 500px;
+    min-width: none;
+    padding: 5%;
+    margin-top: 30px;
+    margin-bottom: 5%;
+    text-align: left;
+    opacity: 0.9;
+}
+
+label {
+    margin: 4%;
+    color: aliceblue;
+}
+
+input {
+    margin: 2%;
+    height: 20px;
+}
+
+select {
+    margin: 4%;
+    border-radius: 50px;
+    width: 50%;
+    height: 35px;
+}
+
+#textarea {
+    margin: 4%;
+    width: 80%;
+    min-height: 120px;
+    border-color: green;
+    border-width: 2px;
+}
+
+#submit {
+    background-color: green;
+    margin: 4%;
+    width: 80%;
+    height: 40px;
+    border-radius: 50px;
+    color: aliceblue;
+}
