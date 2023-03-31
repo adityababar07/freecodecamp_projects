@@ -1,0 +1,47 @@
+#title {
+    padding: 25px;
+}
+
+#main {
+    background-color: rgb(170, 170, 170);
+    border-radius: 15px;
+}
+
+#img-div{
+    background-color: azure;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#tribute-info {
+    max-width: 800px;
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    padding: 5px;
+}
+
+li {
+    padding: 7px;
+}
+
+#tribute-quote-div {
+    text-align: center;
+    padding: 15px;
+}
+
+#tribute-link {
+    padding: 25px;
+}
