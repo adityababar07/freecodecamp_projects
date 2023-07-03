@@ -1,14 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Python Documentation</title>
-    <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        
-    </body>
-</html>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header>Python Documentation</header>
+            <ul>
+                <a class="nav-link" href="#Introduction">
+                    <li>Introduction</li>
+                </a>
+                <a class="nav-link" href="#Input/Output">
+                    <li>Input/Output</li>
+                </a>
+                <a class="nav-link" href="#Operators">
+                    <li>Operators</li>
+                </a>
+                <a class="nav-link" href="#Datatypes">
+                    <li>Datatypes</li>
+                </a>
+                <a class="nav-link" href="#Control_Flow">
+                    <li>Control Flow</li>
+                </a>
+
+            </ul>
+        </nav>
+        <section id="content">
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <p>Python is a high-level, general-purpose, and very popular programming language. Python programming
+                    language (latest Python 3) is being used in web development, Machine Learning applications, along
+                    with all cutting-edge technology in Software Industry.
+
+                    Python language is being used by almost all tech-giant companies like :– <br>
+                <ul>
+                    <li>Google</li>
+                    <li>Amazon </li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Dropbox</li>
+                    <li>Uber… etc.</li>
+                </ul>
+                </p>
+                <p>Python is currently the most widely used multi-purpose, high-level programming language, which allows
+                    programming in Object-Oriented and Procedural paradigms. Python programs generally are smaller than
+                    other programming languages like Java. Programmers have to type relatively less and the indentation
+                    requirement of the language, makes them readable all the time.</p>
+            </section>
+            <section class="main-section" id="Input/Output">
+                <header>Input/Output</header>
+
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/python1-1.jpg">
+                <p>
+
+
+
+                    In Python, input is the process of getting data from the user. This data can be anything from a
+                    simple string to a complex object. The most common way to get input from the user is to use the
+                    input() function. The input() function takes a prompt as its argument, which is a string that is
+                    displayed to the user before they enter their input. The user's input is then returned as a string.
+                    For example, the following code will ask the user for their name and then print it back to them:
+
+                    <code>
+                    name = input("What is your name? ")
+                    print("Your name is", name)</code>
+                </p>
+
+                <p>
+
+                    Output in Python is the process of displaying data to the user. This data can be anything from a
+                    simple string to a complex object. The most common way to output data to the user is to use the
+                    print() function. The print() function takes any number of arguments, which are the data that you
+                    want to display. The print() function will then display the data to the user, one item per line.
+
+                    For example, the following code will print the numbers 1 to 10:
+
+                    <code>
+                    for i in range(1, 11):
+                    print(i)</code>
+                </p>
+            </section>
+            <section class="main-section" id="Operators">
+                <header>Operators</header>
+                <p>
+                    1
+                    Operators in Python are special symbols that are used to perform operations on variables and values.
+                    There are many different types of operators in Python, but some of the most common include:
+
+                    Arithmetic operators are used to perform mathematical operations, such as addition, subtraction,
+                    multiplication, division, and modulus. For example, the expression 5 + 2 will return the value 7,
+                    because 5 added to 2 is 7.
+                    Comparison operators are used to compare two values and return a Boolean value (True or False). For
+                    example, the expression 5 == 2 will return False, because 5 is not equal to 2.
+                    Logical operators are used to combine Boolean values and return a new Boolean value. For example,
+                    the expression 5 > 2 and 3 < 4 will return True, because 5 is greater than 2 and 3 is less than 4.
+                        Assignment operators are used to assign values to variables. For example, the expression x=5
+                        will assign the value 5 to the variable x. Identity operators are used to compare the identity
+                        of two objects. For example, the expression x is y will return True if x and y are the same
+                        object, and False otherwise. Membership operators are used to check if a value is a member of a
+                        sequence. For example, the expression 'a' in 'abc' will return True, because the character 'a'
+                        is a member of the string 'abc' .</p>
+                        <p>Here is a table of all the operators in Python:
+
+                            Operator Description
+                            Arithmetic operators +, -, *, /, //, %
+                            Comparison operators ==, !=, <,>, <=,>=
+                                    Logical operators and, or, not
+                                    Assignment operators =, +=, -=, *=, /=, //=, %=
+                                    Identity operators is, is not
+                                    Membership operators in, not in
+                                    For more information on operators in Python, you can refer to the Python
+                                    documentation: https://docs.python.org/3/library/operator.html.</p>
+            </section>
+            <section class="main-section" id="Datatypes">
+                <header>Datatypes</header>
+                <p>
+                    Data types in Python are used to define the type of data that a variable can store. There are many
+                    different data types in Python, but some of the most common include:
+
+                    Numeric data types are used to store numbers. The most common numeric data types are int, float, and
+                    complex.
+                    String data types are used to store text. Strings are enclosed in quotes.
+                    Sequence data types are used to store collections of data. The most common sequence data types are
+                    list, tuple, and range.
+                    Mapping data types are used to store data in key-value pairs. The most common mapping data type is
+                    dict.
+                    Boolean data types are used to store true or false values. The only two possible values for a
+                    Boolean data type are True and False.</p>
+                <p>Here is a table of all the data types in Python:
+
+                    Data type Description
+                    int Used to store integers
+                    float Used to store floating-point numbers
+                    complex Used to store complex numbers
+                    str Used to store strings
+                    list Used to store lists of data
+                    tuple Used to store tuples of data
+                    range Used to store a range of numbers
+                    dict Used to store mappings of keys to values
+                    bool Used to store Boolean values
+                    For more information on data types in Python, you can refer to the Python documentation:
+                    https://docs.python.org/3/library/stdtypes.html.
+
+                    Here are some examples of how to use data types in Python:
+<br>
+                    <code>
+                    # Define an integer variable
+                    x = 5
+
+                    # Define a float variable
+                    y = 3.14
+
+                    # Define a string variable
+                    z = "Hello, world!"
+
+                    # Define a list variable
+                    a = [1, 2, 3, 4, 5]
+
+                    # Define a tuple variable
+                    b = (1, 2, 3, 4, 5)
+
+                    # Define a range variable
+                    c = range(10)
+
+                    # Define a dictionary variable
+                    d = {"name": "John Doe", "age": 30}
+
+                    # Define a Boolean variable
+                    e = True
+                    </code><br>
+                    Use code with caution. Learn more
+                    These are just a few examples of how to use data types in Python. There are many other ways to use
+                    data types, and you can learn more by exploring the Python documentation.
+
+                </p>
+            </section>
+            <section class="main-section" id="Control_Flow">
+                <header>Control Flow</header>
+                <p>
+                    Control flow in Python is the order in which the statements in a program are executed. It is
+                    regulated by conditional statements, loops, and function calls.
+
+                    Conditional statements are used to make decisions about the flow of execution. The most common
+                    conditional statement in Python is the if statement. The if statement evaluates a condition and, if
+                    the condition is true, executes a block of code. If the condition is false, the block of code is
+                    skipped.
+                    <code>
+                    x = 5
+                    if x < 10: print("x is less than 10") else: print("x is not less than 10") 
+                </code>
+                    Learn more Loops are used to repeat a block of code a certain number of times or until a certain
+                    condition is met. The most common loops in Python are the while loop and the for loop. The while
+                    loop repeats a block of code as long as a condition is true. The for loop repeats a block of
+                    code for each item in a sequence. 
+                    <code> # While loop x=0 while x < 10: print(x) x +=1 # For
+                        loop numbers=[1, 2, 3, 4, 5] for number in numbers: print(number) </code>
+                         Learn
+                    more Function calls are used to execute a block of code that has been defined previously.
+                    Functions can be used to encapsulate code that is used frequently or to make code more modular.
+                    <code>def factorial(n): if n==0: return 1 else: return n * factorial(n - 1)
+                        print(factorial(5))</code>
+                </p>
+                <p>These are just a few examples of the control flow statements in Python. There are many other
+                    control flow statements available, and you can learn more by exploring the Python
+                    documentation.</p>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
