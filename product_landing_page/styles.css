@@ -1,0 +1,125 @@
+#main {
+    margin: 0%;
+}
+#header{
+    height: 70px;
+    background-color: whitesmoke;
+}
+#header-img{
+    width:200px;
+    height:70px;
+}
+.header-block{
+    display: inline-block;
+
+}
+
+#nav-bar{
+    position: fixed;
+    float: right;
+    text-align: center;
+    padding: 25px;
+    margin-right: 5%;
+}
+
+.nav-link{
+
+    padding: 2px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.5cm;
+}
+
+#content{
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#img-ref{
+    background-image: url("https://i0.wp.com/www.techbooky.com/wp-content/uploads/2022/07/rolex-watch.jpg?resize=1024%2C683&ssl=1");
+    background-size: auto;
+    min-width: 60%;
+    min-height: 100%;
+    position: fixed;
+    grid-column: 1;
+
+}
+
+
+#sub-content{
+    /* float: right; */
+    /* display: inline-block; */
+    margin: 0%;
+    padding: 0%;
+    grid-column: 2;
+}
+
+#video{
+    margin: 0%;
+    padding: 0%;
+    margin-left: 245px;
+}
+
+#features {
+    text-align: justify;
+    margin-left: 240px;
+    width: 400px;
+}
+
+#pricing{
+    text-align: justify;
+    margin-left: 240px;
+    width: 400px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.watches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border: 1.5px solid #000;
+}
+
+.watche-img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.btn {
+    background: black;
+    color: blanchedalmond;
+    margin-bottom: 5px;
+}
+
+#form {
+    text-align: center;
+    margin-left: 240px;
+    width: 400px;
+    border: 1.5px solid black;
+    margin-bottom: 10px;
+    background:grey;
+    padding: 10px;
+
+}
+#email {
+    margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 480px) {
+    #img-ref {
+      width: 0%;
+      height: 0%; 
+    }
+  
+
+    
+  }
