@@ -1,8 +1,3 @@
-bob - 
+cd data_analysis/demographic_data_analyser
 
-    -playlist has n no. of songs
-    -singer with max no. of songs in playlist is favourite singer
-    
-
-
-cd data_analysis/mean-variance-standard-deviation-calculator
+https://github.com/freeCodeCamp/boilerplate-demographic-data-analyzer/
