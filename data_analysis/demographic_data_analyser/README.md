@@ -63,11 +63,5 @@ import test_module
 test_module.run_tests()
 ```
 
-## Submitting
 
-Copy your project's URL and submit it to freeCodeCamp.
-
-## Dataset Source
-
-Dua, D. and Graff, C. (2019). UCI Machine Learning Repository. Irvine, CA: University of California, School of Information and Computer Science.
 
